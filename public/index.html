@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  <div id="app-start-area">
+    Welcome to Quiz Star
+    <br />
+    <button id="start-btn">Start</button>
+  </div>
+  <div id="play-again-area" class="hidden">
+    Great, Your total score is <span id="score-cont"></span>
+    <button id="play-again-btn">Play Again</button>
+  </div>
+  <div id="question-area" class="hidden">
+    <div id="question"></div>
+    <br />
+    <input type="text" id="answer-input" />
+    <br />
+    <button id="answer-submit-btn">Submit</button>
+  </div>
+  <script src="question.js"></script>
+  <script src="userquiz.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
